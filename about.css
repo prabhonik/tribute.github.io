@@ -1,0 +1,137 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #39424e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+li{
+
+    float: right;
+    border-left: 2px solid #156ee2;  
+}
+
+.headin{
+    float: left;
+}
+
+.navigation{
+    margin-right: 50px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+a{
+    display: block;
+    padding: 0px 28px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-family: Apple Chancery, cursive;
+    font-weight: bolder;
+    
+}
+
+a:hover{
+    background-color: #156ee2;
+    font-weight: bolder;
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+body{
+    background-color: #E1E2E4;
+}
+
+img{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    float:left;
+}
+
+h2.team{
+    text-align: center;
+    color: #323232;
+    line-height: 3.25rem;
+    letter-spacing: 0.84px;
+    font-family: aktiv-grotesk,sans-serif;
+}
+
+.email{
+    display:block;
+    font-size:15px;
+    letter-spacing: 0.84px;
+    padding-top: 0px;
+    color: #156ee2;
+    line-height: 1.25rem;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.mainpage{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+}
+
+.name{
+    display:block;
+    font-size:30px;
+    color: #39424e;
+    margin-bottom: 10px;
+    line-height: 1.25rem;
+    letter-spacing: 0.84px;
+    font-family: sans-serif;
+}
+
+hr.ln1{
+    border-color:  red;
+    border-width: 2px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+hr.ln2{
+    border-color:  red;
+    border-width: 2px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+footer{
+    text-align: center;
+    color:black; 
+    font-size: 20;
+}
+
+p{
+    display: block;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.84px;
+    font-size: 1.12rem;
+    line-height: 2.25rem;
+}
+
+.foraut{
+    margin-left: 300px;
+    width: 55%;
+    text-align: justify;
+    margin-top: 40px;
+}

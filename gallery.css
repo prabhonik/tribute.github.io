@@ -1,0 +1,124 @@
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  background-color: #39424e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  
+}
+
+li{
+
+  float: right;
+  border-left: 2px solid #156ee2;  
+}
+
+.headin{
+  float: left;
+
+}
+
+.navigation{
+  margin-right: 50px;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+}
+
+a{
+  display: block;
+  padding: 0px 28px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.logo{
+  line-height: 50px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  font-family: Apple Chancery, cursive;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+a:hover{
+  background-color: #156ee2;
+  font-weight: bolder;
+  font-size: 18px;
+  color: yellowgreen;
+}
+
+body{
+  background-color: #E1E2E4;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+  .container .box{
+ flex-direction: column;
+}
+
+@media only screen and (max-width: 643px){
+  .container .heading{
+    width: 100%;
+  }
+}
+
+.container .box .dream{
+  width: 100%;
+}
+
+}
+
+img:hover{
+  transform: scale(1.25);
+}
+

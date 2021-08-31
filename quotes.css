@@ -1,0 +1,162 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #39424e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+li{
+
+    float: right;
+    border-left: 2px solid #156ee2;  
+}
+
+.headin{
+    float: left;
+
+}
+
+.navigation{
+    margin-right: 50px;
+}
+
+nav{
+    position:sticky;
+    top: 0;
+}
+
+a{
+    display: block;
+    padding: 0px 28px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.logo{
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-family: Apple Chancery, cursive;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+a:hover{
+    background-color: #156ee2;
+    font-weight: bolder;
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+/***********************************************************************/
+
+#qts{
+    text-align: center;
+    color: #323232;
+    line-height: 3.25rem;
+    letter-spacing: 0.84px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-size: 40px;
+}
+
+#nws{
+    text-align: center;
+    color: #323232;
+    line-height: 3.25rem;
+    letter-spacing: 0.84px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-size: 30px;
+}
+
+hr.ln1{
+    border-color:  red;
+    border-width: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+hr.ln2{
+    border-color:  red;
+    border-width: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2.pb1{
+    margin-left: 20px;
+    color: #323232;
+    line-height: 3.25rem;
+    letter-spacing: 0.84px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    display:block;
+    font-family: sans-serif;
+    line-height: 2.25rem;
+    letter-spacing: 0.84px;
+    font-size: 1.12rem;
+    padding-top: 0px;
+    color: #323232;
+    margin-left:20px;
+    margin-bottom: 10px; 
+}
+
+p,q{
+    display: block;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.84px;
+    font-size: 1.12rem;
+    line-height: 2.25rem;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h4{
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 50px;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: #E1E2E4;
+}
+
+hr.dot {
+    border-top: 1px dotted red;
+    border-width: 2px;
+    margin-left: 20px;
+    margin-right:  20px;
+}
+
+.mainpart{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    text-align: justify;
+  
+}
+
+.cont{
+    color: #323232;
+    text-decoration: none;
+}
+
+.qoutes1{
+    margin-right: 30px;
+    margin-left: 30px;;
+}
+
